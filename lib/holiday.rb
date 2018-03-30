@@ -70,7 +70,7 @@ holiday_hash.each do |season, supplies|
     binding.pry
     event.to_s.split('_').each do |holiday|
    [] << holiday.capitalize
-    [] = special_day
+   special_day = []
   #supplies.each do |event, stuff|
     #puts "#{event.to_s} + #{stuff}"
     end
