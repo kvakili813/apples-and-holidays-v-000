@@ -71,7 +71,6 @@ holiday_hash.each do |season, supplies|
     special_day = []
     event.to_s.split('_').each do |holiday|
       special_day << holiday.capitalize!
-  end
     end
     puts "  #{special_day.join(' ')}: " + stuff.join(", ")
   #supplies.each do |event, stuff|
