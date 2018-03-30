@@ -74,7 +74,6 @@ holiday_hash.each do |season, supplies|
     binding.pry
   #supplies.each do |event, stuff|
     #puts "#{event.to_s} + #{stuff}"
-      end
     end
   end
 end
