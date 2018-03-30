@@ -86,7 +86,7 @@ holiday_hash.each do |season, holiday|
   holiday.each do |day, supplies|
     Grill = []
   [] << supplies.include("BBQ")
-  Grill
 end
   end
+  Grill
 end
