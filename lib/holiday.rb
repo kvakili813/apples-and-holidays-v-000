@@ -72,7 +72,7 @@ holiday_hash.each do |season, supplies|
     end
     puts "#{season.to_s.capitalize}:"
     binding.pry
-    puts "  #{special_day.join}: " + stuff.join(", ")
+    puts "  #{special_day.join(' ')}: " + stuff.join(", ")
   #supplies.each do |event, stuff|
     #puts "#{event.to_s} + #{stuff}"
     end
