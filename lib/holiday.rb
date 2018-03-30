@@ -87,5 +87,4 @@ holiday_hash.each do |season, holiday|
   supplies.include("BBQ")
 end
   end
-    end
 end
